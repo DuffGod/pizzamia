@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Pushster&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Shizuru&display=swap');
+
+html{
+  scroll-behavior: smooth
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff
+}
+
+/* Barre de navig */
+
+nav{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 5px solid #A19A9A  ;
+  background-color: #222121;
+  color: #fff;
+  top: 0;
+  position: sticky;
+}
+nav h1{
+  font-family: 'Shizuru', cursive;
+  font-size: 30px;  
+}
+nav .onglets{
+  display: flex;
+  
+}
+nav .onglets a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 40px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3px;
+}
+
+header{
+  font-family: 'Shizuru', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('https://www.allopizzaplus-plaisir.com/img/slider.jpg');
+  background-size: cover;
+  color: #131212;
+  padding: 70px;
+}
+
+header h1{
+  font-size: 40px;
+}
+
+header h3{
+  border-bottom: 1px solid #131212;
+  padding-bottom: 3px;
+  margin-top: -20px;
+}
+
+header button{
+  font-family: 'Playfair Display', serif;
+  padding: 10px 20px;
+  background-color: #131212;
+  color: #fff;
+  border:none;
+  margin-bottom: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.main{
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .content .card{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.main .content .card.left{
+  flex: 0 0 50%;
+ }
+
+.main .content .card .right{
+  padding: 25px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  flex: 0 0 50%; 
+  background-color: #000000;
+  color: #fff;
+}
+
+
+.main .content .card .right button{
+  padding: 10px 20px;
+  background-color: #F75E5E;
+  color: #fff;
+  border:none;
+  margin-top: 20pxx;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.main .content .card .right input[type="submit"]{
+  padding: 10px 20px;
+  background-color: #F75E5E;
+  color: #fff;
+  border:none;
+  margin-top: 20pxx;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.main .content .card .left img{
+  height: 300px;
+  width: 400px;
+}
+
+
+footer{
+  margin-top: 30px;
+  padding: 30px 80px;
+  height: 50%;
+  border-top: 5px solid #A19A9A  ;
+  color:#fff;
+  background-color: #131212;
+}
+
+footer h2{
+  font-family: 'Playfair Display', serif;
+  border-bottom: 1px solid #fff;
+  width: 20%;
+}
+
+footer .infos{
+  margin-top: -10px;
+  display: flex;
+}
+
+footer .infos .info{
+  margin-right: 30px;
+}
